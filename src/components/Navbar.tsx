@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
             <Building2 className="h-8 w-8 text-blue-600" />
-            <span className="font-bold text-xl">LuxeAura</span>
+            <span className="font-bold text-xl">LuxeAura Design Co.</span>
           </Link>
           
           <div className="hidden md:block">
