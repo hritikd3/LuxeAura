@@ -3,7 +3,9 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 export default function ContactInfo() {
   return (
     <div>
-      <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
+      <h2 className="text-2xl font-bold text-gray-900 mb-6">
+        Contact Information
+      </h2>
       <div className="space-y-8">
         <div className="flex items-start space-x-4">
           <MapPin className="h-6 w-6 text-blue-600 flex-shrink-0" />
@@ -27,21 +29,27 @@ export default function ContactInfo() {
           <Phone className="h-6 w-6 text-blue-600 flex-shrink-0" />
           <div>
             <h3 className="font-semibold text-gray-900">Phone</h3>
-            <p className="text-gray-600 mt-1">+91 99105 55872</p>
+            <p className="text-gray-600 mt-1">
+              +91 99105 55872, +91 98997 47361
+            </p>
           </div>
         </div>
         <div className="flex items-start space-x-4">
           <Mail className="h-6 w-6 text-blue-600 flex-shrink-0" />
           <div>
             <h3 className="font-semibold text-gray-900">Email</h3>
-            <p className="text-gray-600 mt-1">gurmeetsingh@luxeauradesign.com</p>
+            <p className="text-gray-600 mt-1">
+              gurmeetsingh@luxeauradesign.com
+            </p>
           </div>
         </div>
       </div>
 
       {/* Office Hours */}
       <div className="mt-12">
-        <h3 className="text-xl font-semibold text-gray-900 mb-4">Office Hours</h3>
+        <h3 className="text-xl font-semibold text-gray-900 mb-4">
+          Office Hours
+        </h3>
         <div className="space-y-2">
           <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
           <p className="text-gray-600">Saturday: 10:00 AM - 4:00 PM</p>
