@@ -5,7 +5,7 @@ const team = [
     name: 'Ar. Gurmeet Singh',
     role: 'Founder & CEO',
     email: 'gurmeetsingh@luxeauradesign.com',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80'
+    image: '../public/images/ceo.jpg'
   },
   {
     name: 'Gaganpreet Singh',
@@ -26,7 +26,7 @@ export default function Team() {
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-full h-64 object-cover"
+                className="w-full h-34 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900">{member.name}</h3>
