@@ -1,11 +1,11 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
+// import {  MapPin } from 'lucide-react';
 import ContactForm from '../components/contact/ContactForm';
 import ContactInfo from '../components/contact/ContactInfo';
 import PageHero from '../components/common/PageHero';
 
 export default function Contact() {
   return (
-    <div className="pt-16">
+    <div className="pt-1">
       <PageHero 
         title="Contact Us"
         image="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80"

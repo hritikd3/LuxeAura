@@ -1,4 +1,4 @@
-import { Menu, X, Building2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -8,12 +8,13 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
+    <nav className="fixed w-full bg-white/25 backdrop-blur-sm z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <Building2 className="h-8 w-8 text-blue-600" />
-            <span className="font-bold text-xl">LuxeAura Design Co.</span>
+            {/* <Building2 className="h-8 w-8 text-blue-600" /> */}
+            <img src="./images/logo.png" alt="" height='43px' width='152px'/>
+            {/* <span className="font-bold text-xl">LuxeAura Design Co.</span> */}
           </Link>
           
           <div className="hidden md:block">

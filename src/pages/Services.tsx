@@ -35,7 +35,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="pt-16">
+    <div className="pt-1">
       {/* Hero Section */}
       <div className="relative h-[400px]">
         <img
